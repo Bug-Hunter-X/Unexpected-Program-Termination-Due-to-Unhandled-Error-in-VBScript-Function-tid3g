@@ -1,0 +1,1 @@
+This example demonstrates an uncommon VBScript bug related to unhandled errors. The `MyFunction` raises an error if its parameter is empty. However, if this error is not handled in the calling function, it will cause the script to terminate unexpectedly. The solution shows how to use On Error Resume Next and Err object to handle the error gracefully.
